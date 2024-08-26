@@ -2,6 +2,7 @@
 section {
   & input {
     width: 100%;
+    height: 2.75rem;
     padding: 0.6875rem 1.125rem;
     margin-bottom: 1rem;
     color: var(--content-tertiary);
