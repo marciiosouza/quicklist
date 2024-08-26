@@ -1,0 +1,26 @@
+
+section {
+  & input {
+    width: 100%;
+    padding: 0.6875rem 1.125rem;
+    margin-bottom: 1rem;
+    color: var(--content-tertiary);
+  
+    border-radius: 0.75rem;
+    border: 2px solid var(--border-primary);
+    background: var(--background-secondary);
+  }
+
+  & input::placeholder {
+    color: var(--content-tertiary);
+  }
+
+  & input:focus {
+    border: 2px solid var(--color-brand);
+    color: var(--content-primary);
+  }
+
+  & input:hover {
+    border: 2px solid var(--border-hover);
+  }
+}

@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  height: 44px;
+
+  padding: 0.625 1.5rem;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem;
+  background-color: var(--color-brand);
+  color: var(--always-white);
+
+  &:hover {
+    background-color: var(--color-brand-hover);
+  }
+}
+
+.link-button {
+  margin-bottom: 1rem;  
+  color: var(--color-brand);
+  font-size: var(--fs-link);
+
+}

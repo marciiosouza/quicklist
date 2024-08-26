@@ -51,6 +51,8 @@ h1 {
   font-size: var(--fs-title);
   font-weight: var(--fw-bold);
   line-height: 2rem;
+
+  margin-bottom: 2.75rem;
 }
 
 a {

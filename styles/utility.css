@@ -1,0 +1,7 @@
+.container {
+  margin-top: 2.125rem;
+  margin-inline: auto;
+  --max-width: 375px;
+
+  width: min(var(--max-width), 100% - 1.5rem * 2);
+}
