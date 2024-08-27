@@ -1,4 +1,3 @@
-
 section {
   & input {
     width: 100%;
@@ -6,22 +5,26 @@ section {
     padding: 0.6875rem 1.125rem;
     margin-bottom: 1rem;
     color: var(--content-tertiary);
-  
+
     border-radius: 0.75rem;
     border: 2px solid var(--border-primary);
     background: var(--background-secondary);
   }
 
-  & input::placeholder {
+  & input:hover {
+    border: 2px solid var(--border-hover);
+  }
+
+  input::placeholder {
     color: var(--content-tertiary);
   }
 
-  & input:focus {
-    border: 2px solid var(--color-brand);
-    color: var(--content-primary);
+  input:focus {
+    outline: 0;
+    border-color: var(--color-brand);
   }
 
-  & input:hover {
-    border: 2px solid var(--border-hover);
+  input:focus::placeholder {
+    color: var(--content-primary);
   }
 }
