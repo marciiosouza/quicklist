@@ -17,6 +17,10 @@
 <body>
 
   <main class="container">
+    <div class="logo">
+      
+    </div>
+    <img src="./assets/logo.svg" class="logo" alt="">
     <section id="link-button">
       <div class="link-button">
         <img src="./assets/icons/arrow.svg" alt="Seta para esquerda">
@@ -27,23 +31,33 @@
 
     <section class="add-item">
       <input id="" type="text" placeholder="Adicione um novo item">
-      <a class="btn" href="">Adicionar item</a>
+      <button class="btn" href="">Adicionar item</button>
     </section>
 
     <section id="list">
       <div class="items">
-
         <div class="checkbox-wrapper">
-          <input type="checkbox" id="event-private" />
-          <label for="event-private">Pão de forma</label>
+          <input type="checkbox" id="list-items" />
+          <label for="list-items">Pão de forma</label>
         </div>
 
         <button>
           <img src="./assets/icons/delete.svg" alt="Botão deletar">
         </button>
       </div>
+      
 
-    </section>
+    <div class="alert">
+      <div class="content">
+        <img src="./assets/icons/warning-circle.svg" alt="Icone atenção, na cor branca">
+        <p>O item foi removido da lista</p>
+      </div>
+
+      <button>
+        <img src="./assets/icons/delete-small.svg" alt="Botão fechar">
+      </button>
+
+    </div>
 
   </main>
 

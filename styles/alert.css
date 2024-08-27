@@ -1,0 +1,21 @@
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  margin-top: 2.25rem;
+
+  height: 44px;
+
+  font-weight: var(--fw-semi-bold);
+  color: var(--always-white);
+  background-color: var(--color-danger);
+  border-radius: 0.75rem;
+} 
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+} 
+
